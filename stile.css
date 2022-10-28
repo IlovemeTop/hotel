@@ -1,0 +1,107 @@
+body, h1, h2, h3, ul, p {
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: #35424a;
+    border-bottom: 3px solid blueviolet;
+}
+#header h1{
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+#header .logo{
+    color: blueviolet;
+}
+.navbar{
+    float: right;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px;
+    display: inline-block;
+}
+.navbar li a:hover{
+    color: blueviolet;
+}
+.navbar li{
+    display: inline;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+#banner{
+    height: 60vh;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/004/112/841/small/facebook-instagram-and-telegram-logo-free-vector.jpg);
+    background-size: cover;
+    background-position: center -100px;
+    text-align: center;
+    color: #35424a;
+    font-family: sans-serif;
+}
+#banner h1{
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 150px;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+#newsletter{
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+#newsletter .left{
+    float: left;
+}
+#newsletter .right{
+    float: right;
+}
+.newsletter input{
+    padding: 5px;
+}
+.button{
+    padding: 2.3px ;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    margin-left: 5px;
+}
+.clr{
+    clear: both;
+}
+#footer{
+    padding: 50px 0;
+    text-align: center;
+    background-color: blueviolet;
+    color: #fff;
+    margin-top: 30px;
+}
+#bunner{
+    height: 70vh;
+    background-size: cover;
+    background-position: center -300;
+    color: #35424a;
+    text-align: center;
+    font-family: sans-serif;
+    width: 33%;
+    margin: 0 auto;
+}
+#bunner a{
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    padding: 15px;
+    display: inline-block;
+   text-align: left; 
+}

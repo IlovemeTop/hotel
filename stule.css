@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    border: 1px solid ;
+    float: left;
+    width: 16.6%;
+    text-align: center;
+    background-color: aqua;
+    color: antiquewhite;
+}
+@media only screen and (max-width:1024px) {
+.box{
+    width: 33.3%;
+    background-color: yellowgreen;
+}
+}
+@media only screen and (max-width:767px) {
+.box{
+        width: 100%;
+        background-color: maroon;
+}
+}
